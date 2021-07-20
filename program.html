@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/build/css/editor.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="app-header bg-dark text-white w-full">
+        <div class="container flex items-center justify-between">
+          <span>Logo</span>
+  
+          <ul class="toolbar-menu">
+            <li dropdown="services" class="menu-item">
+              Programmes
+              <div class="dropdown absolute" style="top: -5px">
+                <div class="dropdown-content">
+                  <div class="flex py-5 pr-4">
+                    <div class="flex flex-col my-5 mr-5 ml-4">
+                      <h1>Services</h1>
+                      <p>
+                        We specialize in building and scaling dedicated IT teams.
+                        In what field do you need support?
+                      </p>
+                    </div>
+                    <div class="flex flex-col my-5 mr-5 ml-4">
+                      <h3 class="whitespace-no-wrap">Hire our remote developers to:</h3>
+                      <ul>
+                        <li>Expand your development team</li>
+                        <li>Build your digital product</li>
+                        <li>Form your new dedicated team</li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-col my-5 mr-5 ml-4">
+                      <h3 class="whitespace-no-wrap">Other services we offer:</h3>
+                      <ul>
+                        <li>Make your MVP</li>
+                        <li>Python Development</li>
+                        <li>Custom Web Application</li>
+                        <li>AI Development</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu-item">En ligne</li>
+            <li class="menu-item">Pour les entreprises</li>
+            <li class="menu-item">About us</li>
+            <li class="menu-item">Blog</li>
+          </ul>
+        </div>
+      </header>
+
+    <!-- Hero -->
+    <section class="program-hero pb-16">
+      <div class="container flex">
+        <div class="w-2/3 flex flex-col">
+          <h1 class="my-8 font-bold text-white">
+            Créez votre premier site web
+          </h1>
+          <p class="my-8 text-xl">
+            Apprenez les technologies les plus récentes pour devenir développeur
+            web et créez des sites web avec HTML, CSS. Vous apprendrez aussi les
+            bases de JavaScript pour rendre votre page interactive .
+          </p>
+          <div class="flex">
+            <span class="py-2 px-2 border mr-2"> 7 Chapitres</span>
+            <span class="py-2 px-2 border mr-2"> 120 Exercices</span>
+            <span class="py-2 px-2 border mr-2"> 10 Projets</span>
+            <span class="py-2 px-2 border mr-2"> 7 One to one meetings</span>
+            <span class="py-2 px-2 border"> 7 Workshops</span>
+          </div>
+          <div class="grid grid-cols-2 gap-8 my-8">
+            <div class="flex items-center">
+              <span class="material-icons mr-2"> event </span>
+              Durée: 12 semaines
+            </div>
+            <div class="flex items-center">
+              <span class="material-icons mr-2"> access_time </span>
+              4 heures / semaine en présentiel
+            </div>
+            <div class="flex items-center">
+              <span class="material-icons mr-2"> laptop_windows </span>
+              Apprenez sur notre plateforme 24/7
+            </div>
+            <div class="flex items-center">
+              <span class="material-icons mr-2"> where_to_vote </span>
+              Disponible dans nos hackerspaces ou en ligne
+            </div>
+          </div>
+          <div>
+            <button
+              class="
+                btn
+                bg-primary
+                flex
+                items-center
+                text-white
+                border-primary
+                hover:bg-primary-light
+                hover:text-primary
+              "
+            >
+              S'inscrire au programme
+              <span class="material-icons ml-2"> east </span>
+            </button>
+          </div>
+        </div>
+        <div class="w-1/3">
+          <img src="assets/src/img/web_3bf02c12d1.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="program-content py-16">
+      <div class="container flex">
+        <div class="w-1/3 py-8">
+          <h1 class="pl-3 pt-3 pb-3 border-l-3">Un contenu riche</h1>
+        </div>
+        <div class="w-2/3 flex flex-col">
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">1</span>
+            <span class="px-gutter font-bold text-lg w-2/5"
+              >Introduction au développement web</span
+            >
+            <p class="px-gutter w-3/5">
+              Faire la différence entre “Internet” et “Web”. Comprendre et
+              résumer le fonctionnement du Web. Définir les API et les
+              protocoles.
+            </p>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">2</span>
+            <span class="px-gutter font-bold text-lg w-2/5">HTML</span>
+            <p class="px-gutter w-3/5">
+              Définir HTML, la structuration d’une page web, les tags. Créer des
+              interfaces web avec les tags HTML.
+            </p>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">3</span>
+            <span class="px-gutter font-bold text-lg w-2/5">CSS</span>
+            <p class="px-gutter w-3/5">
+              Découvrir CSS. Travailler avec les sélecteurs CSS. Ajouter du
+              design à votre site web avec CSS.
+            </p>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">4</span>
+            <span class="px-gutter font-bold text-lg w-2/5">JavaScript</span>
+            <p class="px-gutter w-3/5">
+              Définir JavaScript. Apprendre les bases de JavaScript. Résoudre
+              les problèmes avec JavaScript.
+            </p>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">5</span>
+            <span class="px-gutter font-bold text-lg w-2/5">DOM</span>
+            <p class="px-gutter w-3/5">
+              Introduire DOM. Manipuler les structures HTML. Créer un site web
+              dynamique.
+            </p>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              py-8
+              border-b
+              hover:border-primary
+              cursor-pointer
+            "
+          >
+            <span class="pr-gutter text-2xl font-bold">6</span>
+            <span class="px-gutter font-bold text-lg w-2/5">Git et github</span>
+            <p class="px-gutter w-3/5">
+              Définir Git et GitHub. Découvrir quelques fonctionnalités de
+              GitHub. Manipuler les projets sur GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="app-contacts section-bg py-16">
+      <div class="container grid md:grid-cols-2 grid-cols-1 gap-16">
+        <div
+          style="height: fit-content"
+          class="flex flex-col self-center border-l-3 pl-3 pt-3 pb-3"
+        >
+          <h1>Posez nous toutes vos questions</h1>
+          <p>Nous allons vos recontacter le plus vite</p>
+        </div>
+        <div>
+          <div class="grid grid-cols-2 gap-12 mb-12">
+            <div>
+              <input class="w-full" placeholder="Prénom" />
+            </div>
+            <div>
+              <input class="w-full" placeholder="Nom" />
+            </div>
+          </div>
+          <div class="mb-12">
+            <input class="w-full" placeholder="Numéro de téléphone" />
+          </div>
+          <div class="mb-12"><input class="w-full" placeholder="Email" /></div>
+          <div class="mb-12">
+            <input class="w-full" placeholder="Formation" />
+          </div>
+          <div class="flex justify-end">
+            <button class="btn btn-primary">Soumettre</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-aproach py-16">
+      <div class="container grid md:grid-cols-2 grid-cols-1">
+        <div></div>
+        <div class="flex flex-col justify-center items-center">
+          <h1 class="mb-16">
+            Plusieurs milestones permettent à l'étudiant de maîtriser les
+            compétences techniques:
+          </h1>
+          <div class="grid grid-cols-1 gap-4">
+            <div class="flex items-center">
+              <div class="pr-8 text-6xl font-bold text-primary">1</div>
+              <div class="flex flex-col">
+                <h1 class="mb-4 text-xl">Évaluations</h1>
+                <p class="">
+                  ce sont des exercices rapides (quiz, coding exercices...) qui
+                  se trouvent après chaque compétence et qui permettent de
+                  tester la compréhension du cours par l’étudiant.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="pr-8 text-6xl font-bold">2</div>
+              <div class="flex flex-col">
+                <h1 class="mb-4 text-xl">Checkpoints</h1>
+                <p class="">
+                  ce sont des mini-projets qui permettent à l'étudiant de mettre
+                  en pratique ce qu'il a appris et de se préparer pour le projet
+                  final. Les checkpoints sont ensuite corrigés et évalués par
+                  l'instructeur.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="pr-8 text-6xl font-bold">3</div>
+              <div class="flex flex-col">
+                <h1 class="mb-4 text-xl">One-to-one meetings</h1>
+                <p class="">
+                  ce sont des réunions en one to one entre l'étudiant et
+                  l'instructeur. L'instructeur échange avec l'étudiant et lui
+                  pose plusieurs questions à à l'oral pour tester sa
+                  compréhension de ce qu'il a appris et lui faire un feedback
+                  sur les points à améliorer (entre 5 et 20 selon le programme).
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="pr-8 text-6xl font-bold">4</div>
+              <div class="flex flex-col">
+                <h1 class="mb-4 text-xl">Workshops</h1>
+                <p class="">
+                  ce sont des mini présentations animées par l'instructeur
+                  pendant lesquelles l'instructeur explique un concept ou résout
+                  un problème en direct avec les étudiants. Le but étant de
+                  consolider les connaissances de nos étudiants par le biais
+                  d'exercices pratiques.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="pr-8 text-6xl font-bold">5</div>
+              <div class="flex flex-col">
+                <h1 class="mb-4 text-xl">Projet final ou Lab phase</h1>
+                <p class="">
+                  c'est le moment pendant lequel l'étudiant va mettre en
+                  pratique tout ce qu'il a appris pendant le programme et
+                  construire un vrai produit technologique. L'étudiant est
+                  assisté par l'instructeur durant toute cette phase.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="instructors section-bg py-16">
+      <div class="container flex">
+        <div class="w-1/3 self-center md:pr-16">
+          <h1 class="pl-2 pt-2 pb-2 border-l-3">Un encadrement assuré</h1>
+          <p style="line-height: 30px" class="py-16 font-thin text-lg">
+            Nos instructeurs sont présents physiquement ou en ligne pour
+            encadrer les étudiants, organiser des réunions one-to-one et les
+            aider à avancer et à valider les projets pour faciliter
+            l’assimilation du contenu du cours en ligne.
+          </p>
+        </div>
+        <div class="w-2/3"></div>
+      </div>
+    </section>
+
+    <section class="program-goals bg-primary text-white py-16">
+      <div class="container grid md:grid-cols-2 grid-cols-1">
+        <div></div>
+        <div class="flex flex-col">
+          <h1 class="mb-8">Les objectifs de ce programme</h1>
+          <ul>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Découvrir les technologies et les outils utilisés dans le
+              développement web et explorer les fondamentaux d’internet.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Définir et comprendre les fondamentaux de la création des sites
+              web.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Apprendre à utiliser HTML, CSS, et utiliser les structures HTML.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Comprendre et maîtriser les HTML/CSS color model.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Apprendre à créer un site web avec un design moderne en mettant
+              l'accent sur les compétences de développement Web que l’étudiant
+              doit apprendre au quotidien.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Découvrir le rôle de la programmation JavaScript dans le
+              développement web.
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Utiliser JavaScript pour ajuster l'apparence des éléments de la
+              page.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-join-us py-16">
+      <div class="container grid grid-cols-2">
+        <div class="flex flex-col">
+          <h1 class="mb-8">Qui peut nous rejoindre ?</h1>
+          <ul>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Les personnes ayant 14 ans ou plus
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Les passionnés par le développement web
+            </li>
+            <li class="flex items-center py-3">
+              <span class="material-icons mr-3">arrow_forward</span>
+              Les personnes qui veulent se lancer dans le développement web
+            </li>
+          </ul>
+        </div>
+        <div></div>
+      </div>
+    </section>
+
+    <section class="program-online section-bg py-16">
+      <div class="container flex justify-center">
+        <div class="w-1/3 flex justify-center flex-col items-center">
+          <h1 class="mb-8 text-center">
+            Ce parcours est aussi disponible en ligne.
+          </h1>
+          <p class="mb-8 text-center">
+            Vivez toute l’expérience GOMYCODE sans avoir à vous déplacer. Les
+            cours, les workshops, le suivi des instructeurs et les réunions…tout
+            est en ligne.
+          </p>
+          <button class="btn btn-primary">S'inscrire</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex flex-col py-16 bg-dark">
+      <div class="grid md:grid-cols-2 grid-cols-1 container">
+        <div class="flex flex-col">
+          <span class="mb-8 text-white">Logo</span>
+          <p class="mb-8">
+            GOMYCODE Hackerspace, 1 Place Tahar Haddad, 1 Tunis 1053, Tunis 1053
+          </p>
+          <p class="mb-8">+216 39 143 900</p>
+          <p>hello@gomycode.com</p>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-1">
+          <div class="flex flex-col">
+            <h1 class="mb-4 text-2xl text-white">Programmes</h1>
+            <span class="py-1">Parrcours</span>
+            <span class="py-1">En ligne</span>
+            <span class="py-1">Nos bourses</span>
+            <span class="py-1">Pour les entreprises</span>
+          </div>
+          <div class="flex flex-col">
+            <h1 class="mb-4 text-2xl text-white">Naviguer</h1>
+            <span class="py-1">Instructeurs</span>
+            <span class="py-1">Rejoignez-nous</span>
+            <span class="py-1">Parraine un ami</span>
+            <span class="py-1">Hackerspaces</span>
+          </div>
+          <div class="flex flex-col">
+            <h1 class="mb-4 text-2xl text-white">A propos de nous</h1>
+            <span class="py-1">A propos</span>
+            <span class="py-1">Contactez-nous</span>
+            <span class="py-1">Learn platform</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex border-b-3 container pt-16 pb-gutter">Suivez-nous</div>
+      <div class="container pt-gutter">Copyright 2021 ...</div>
+    </footer>
+
+    <script src="assets/build/js/editor.js"></script>
+  </body>
+</html>

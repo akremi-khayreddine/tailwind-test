@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+ 
+:root {
+  --toolbar-height: 80px;
+  --padding-gutter: 1rem;
+  --toolbar-font: "Open Sans", sans-serif;
+  --toolbar-color: #4b4e53;
+  --toolbar-bg: white;
+  --color-primary: 41, 217, 194;
+  --text-color: #4b4e53;
+  --font: "Open Sans", sans-serif;
+  --text-hint: #a3a6a8;
+  --text-color-light: white;
+  --section-bg: #eee;
+}
+.odllc-main {
+  padding-top: var(--toolbar-height);
+  background-color: var(--main-background);
+}
+
+.section-bg {
+  background-color: var(--section-bg);
+}

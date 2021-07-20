@@ -1,0 +1,52 @@
+// Typography
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  font-family: Oswald;
+}
+
+.display-1,
+h1 {
+  letter-spacing: normal;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 40px;
+}
+
+.title,
+h3 {
+  font: 500 18px/26px var(--font);
+  letter-spacing: -0.014em;
+}
+
+.text-xs {
+  letter-spacing: 0;
+}
+
+.text-sm {
+  letter-spacing: -0.009em;
+}
+
+.text-base {
+  letter-spacing: -0.011em;
+}
+
+.text-lg {
+  letter-spacing: -0.014em;
+}
+
+.text-2xl {
+  letter-spacing: -0.019em;
+}
+
+.text-3xl {
+  letter-spacing: -0.021em;
+}
+
+.description {
+  font-size: 16px;
+  padding: 45px 0;
+}

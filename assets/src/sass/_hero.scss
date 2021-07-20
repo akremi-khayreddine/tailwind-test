@@ -1,0 +1,22 @@
+.app-hero {
+  margin-top: var(--toolbar-height);
+  background-image: url(../img/header-img.jpg);
+  height: 674px;
+  background-repeat: no-repeat;
+  background-position: right;
+  div {
+    padding-top: 70px;
+  }
+  p {
+    margin-bottom: 1rem;
+    color: var(--text-color) !important;
+  }
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color) !important;
+  }
+}
